@@ -1,7 +1,7 @@
 version: '3'
 services:
   nginx:
-    image: nginx:1.11.13-alpine
+    image: nginx
     ports:
       - "80:80"
     logging:
